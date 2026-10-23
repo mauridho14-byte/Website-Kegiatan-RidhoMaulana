@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <style>
+        #content{
+            /* background-color: aqua; */
+            width:75%;
+            margin:0 auto;
+        }
+        .judul{
+            text-align: center;
+        }
+        .isi{
+            display:flex;
+            justify-content: space-between;
+        }
+        .image{
+            display:flex;
+            justify-content: space-between;
+        }
+        .image > img{
+            width:422px;
+            height:300px;
+        }
+
+        .sub-isi img{
+            width:50px;
+            height:50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="nav-header">
+            <div class="daily">
+                <p>Daily <span>Flow</span></p>
+            </div>
+            <div class="menu">
+            <h4 class="active">Home</h4>
+            <h4><a href="HTML/kegiatan.html">Kegiatan</a></h4>
+            <h4><a href="HTML/tentang.html">Tentang</a></h4>
+            <h4><a href="HTML/galeri.html">Galeri</a></h4>
+            <h4><a href="HTML/kontak.html">Kontak</a></h4>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="Images/indexImages/belajar.jpg" alt="belajar">
+            <img src="Images/indexImages//olahraga.jpg" alt="olahraga">
+            <img src="Images/indexImages//bantu.jpg" alt="bantu">
+        </div>
+
+        <div id="content">
+            <h1 class="judul" style="color: rgb(23, 9, 100);">SELAMAT DATANG DI KEGIATAN SEHARI-HARI SAYA</h1>
+            <p class="judul">Memberdayakan Anda untuk menjalani hidup secara terarah melalui kebiasaan yang terstruktur</p>
+
+            <div class="isi" style="margin-top: 40px;">
+                <div class="sub-isi">
+                    <img src="Images/indexImages//matahari-removebg-preview.png" alt="matahari">
+                    <h3>Temukan Iramamu</h3>
+                    <p style="margin-top:40px;">Jelajahi rutinitas pagi, kerja, dan malam yang dirancang khusus untuk mengoptimalkan kesejahteraan Anda.</p>
+                </div>
+
+                <div class="sub-isi">
+                    <img src="Images/indexImages//schedule-removebg-preview.png" alt="jadwal ">
+                    <h3>Membangun Kebiasaan yang Lebih Baik</h3>
+                    <p>Pantau kemajuan Anda dan bentuk kebiasaan harian yang positif dan berkelanjutan dengan mudah.</p>
+                </div>
+
+                <div class="sub-isi">
+                    <img src="Images/indexImages//timbangan-removebg-preview.png" alt="timabangan" >
+                    <h3>Hidup dengan Tujuan</h3>
+                    <p style="margin-top: 40px;">Temukan kejelasan, fokus, dan sukacita dengan menyusun hari Anda berdasarkan hal-hal yang benar-benar penting.</p>
+                </div>
+            </div>
+        </div>
+    </div>

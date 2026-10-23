@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+
+    <style>
+
+        .content{
+            display: flex;
+            /* background-color: brown; */
+            width:90%;
+            padding-top:20px;
+            margin:0 auto;
+            /* margin-top:60px; */
+        }
+        .kiri{
+            /* background-color: blueviolet; */
+            width:50%
+        }
+    /* Content Kiri Atas */
+        .atas{
+            display:flex;
+            justify-content:space-between;
+            /* background-color:aqua; */
+            width:430px;
+        }
+        .atas>img{
+            border:6px solid black;
+        }
+        /* img{
+            border-radius:100%;
+        } */
+        .keahlian ul{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 0;
+            padding-left: 0;
+        }
+        .keahlian li{
+            list-style:none;
+            margin-left:0;
+            padding-left: 0;
+        }
+        .info-medsos{
+            display: flex;
+            
+        }
+        .info-medsos img{
+            width:30px;
+            height:30px;
+        }
+        .gambar{
+            margin-left:10px;
+        }
+        .profil{
+            padding-left:15px;
+        }
+    
+    /* Konten Kiri Bawah */
+        .isi {
+            border:5px solid rgb(173, 15, 15);
+            width:550px;
+            /* padding:5px; */
+            border-radius:10px;
+            padding-left:5px;
+        }
+
+    /* Konten kanan */
+        .kanan{
+            margin-left:40px;
+        }
+        .hobi{
+            display:flex;
+            /* box-sizing: border-box; */
+            align-items: center;
+            border:4px solid rgb(173, 15, 15);
+            margin-bottom:5px;
+            border-radius:10px;
+            
+        }
+        .hobi img{
+            width:100px;
+            height:100px;
+            margin-left:20px;
+        }
+        .keterangan{
+            padding-left:10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="nav-header">
+            <div class="daily">
+                <p>Daily <span>Flow</span></p>
+            </div>
+            <div class="menu">
+                <h4><a href="../index.html">Home</a></h4>
+                <h4><a href="kegiatan.html">Kegiatan</a></h4>
+                <h4 class="active">Tentang</h4>
+                <h4><a href="galeri.html">Galeri</a></h4>
+                <h4><a href="kontak.html">Kontak</a></h4>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="kiri">
+                <div class="atas">
+                    <img style="width:200px; height:200px; border-radius:100%;" src="../Images/Tentang/jogging.jpeg" alt="">
+                    <div class="profil">
+                        <h2>Ridho Maulana C</h2>
+                        <div class="keahlian">
+                            <ul>
+                                <li>Kreatif</li>
+                                <li>Teknologi</li>
+                                <li>Olahraga</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="info-medsos">
+                            <img src="../Images/Tentang//linkedin-removebg-preview.png" alt="" >
+                            <img src="../Images/Tentang//github.png" alt="" class="gambar">
+                            <img src="../Images/Tentang//instagram.webp" alt="" class="gambar">
+                            <img src="../Images/Tentang//pesan-removebg-preview.png" alt="" class="gambar">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bawah">
+                    <h2 style="font-size:30px; color: rgb(23, 178, 25);"><i>TENTANG SAYA</i></h2>
+                    <div class="isi">
+                        <h2>Haii, Saya Ridho</h2>
+                        <p>
+                            Halo! Saya adalah seseorang yang senang menjalani aktivitas sehari-hari dengan mencoba menjaga keseimbangan antara belajar, bekerja, dan menikmati waktu luang.
+                            Dalam keseharian, saya berusaha memanfaatkan waktu dengan baik, menyelesaikan tanggung jawab, serta mempelajari hal-hal baru yang bisa menambah pengetahuan dan pengalaman.
+                            Salah satu hobi yang saya sukai adalah bermain badminton. Selain menyenangkan, badminton juga membantu saya menjaga kebugaran tubuh dan melepas penat setelah menjalani aktivitas. Saya juga senang belajar hal baru, terutama yang dapat mengembangkan kemampuan dan keterampilan diri.
+                            Bagi saya, keseharian bukan hanya tentang menyelesaikan pekerjaan, tetapi juga tentang membangun kebiasaan baik, menikmati proses, dan terus berkembang menjadi pribadi yang lebih baik.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="kanan">
+                <h1 style="color:rgb(23, 178, 25);"><i>MY HOBBIES</i></h1>
+                <div class="hobi">
+                    <img src="../Images/Tentang//badminton-removebg-preview.png" alt="">
+                    <div class="keterangan" style="padding-left:30px;">
+                        <h3><i>BADMINTON</i></h3>
+                        <p>Di sela-sela kesibukan harian, saya selalu meluangkan waktu untuk rutin bermain bulutangkis sebagai sarana menjaga kebugaran fisik dan menyegarkan pikiran.</p>
+                    </div>
+                </div>
+                <div class="hobi">
+                    <img src="../Images/Tentang//ngoding-removebg-preview.png" alt="">
+                    <div class="keterangan">
+                        <h3><i>NGODING</i></h3>
+                        <p>Ngoding menjadi salah satu hobi utama yang ditekuni untuk mengasah keterampilan di bidang pemrograman. Aktivitas menulis kode ini merupakan wadah kreatif dalam memecahkan masalah</p>
+                    </div>
+                </div>
+                <div class="hobi">
+                    <img src="../Images/Tentang//mainGame-removebg-preview.png" alt="">
+                    <div class="keterangan">
+                        <h3><i>GAMING</i></h3>
+                        <p>Gaming merupakan hobi yang dipilih untuk mengasah ketangkasan, pola pikir strategis, dan kemampuan memecahkan masalah melalui berbagai tantangan dalam permainan.</p>
+                    </div>
+                </div>
+                <div class="hobi">
+                    <img src="../Images/Tentang//jooging-removebg-preview.png" alt="">
+                    <div class="keterangan">
+                        <h3><i>JOGGING</i></h3>
+                        <p>Jogging menjadi aktivitas rutin yang dijalani untuk menjaga stamina, kesehatan jantung, dan kebugaran tubuh secara menyeluruh. Selain memberikan energi positif di pagi atau sore hari,</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <style>
+        #body{
+            display: flex;
+            justify-content:space-between;
+            /* padding-left:20px; */
+            margin-top:30px;
+            /* background-color: ; */
+        }
+    /* header */
+        #header{
+            text-align: center;
+            background-color: rgb(5, 208, 5,0.7);
+            padding:10px;
+        }
+    /* morning afternoon evening*/
+        .morning{
+            background-color: rgb(45, 156, 225,0.6);
+            width:413px;
+            border-radius:10px;
+        }
+        .afternoon{
+            background-color:rgb(222, 170, 17,0.6);
+            width:413px;
+            border-radius:10px;
+        }
+        .evening{
+            background-color:rgb(138, 43, 226,0.6);
+            width:413px;
+            border-radius:10px;
+        }
+        .keterangan{
+            display:flex;
+            /* justify-content: space-between; */
+            background-color: bisque;
+            /* width:250px; */
+            /* padding-left:10px; */
+            padding-top:5px;
+            border-top-left-radius:10px;
+            border-top-right-radius:10px;
+        }
+        .keterangan>img{
+            border-radius:100%;
+            margin-left:20px;
+            margin-top:2px;
+            width:65px;
+            height:65px;
+        }
+        .waktu{
+            margin:0;
+            padding:0;
+        }
+
+        .display{
+            display: flex;
+        }
+        .display h4{
+            font-size:11px;
+            /* margin-left:10px; */
+        }
+        .bag-atas,.bag-bawah{
+            padding-left:10px;
+        }
+        img{
+            width:30px;
+            height:30px;
+        }
+        #header{
+            margin-top:100px;
+        }
+        /* .judul{
+            display: flex;
+            justify-content: space-between;
+        } */
+        .waktu{
+            padding-left:70px;
+            padding-right:50px;
+            margin-left:90px;
+            padding-top:15px;
+        }
+        .waktu h3{
+            margin-bottom:0;
+            padding-bottom:0;
+            margin-top:0;
+            text-align: center;
+        }
+        .waktu p{
+            margin-top:0;
+            padding-top:0;
+        }
+
+        .atas{
+            background-color: aliceblue;
+            margin:10px;
+            border:2px solid black;
+            border-radius:10px;
+            width:200px;
+            /* margin-left:; */
+        }
+        .atas img{
+            padding-top:5px;
+            padding-left:5px;
+        }
+        .atas h3{
+            text-align: center;
+            background-color: green;
+            color: aliceblue;
+            /* padding-top:4px; */
+            margin-bottom:0;
+            border-bottom-left-radius:8px;
+            border-bottom-right-radius:8px;
+        }
+        .morning .atas{
+            border-color: blue;
+        }
+        .afternoon .atas{
+            border-color: rgb(147, 147, 6);
+        }
+        .evening .atas{
+            border-color:blueviolet;
+        }
+
+        .atas h4{
+            padding-left:5px;
+        }
+        .atas h3{
+            padding-left:5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-header">
+            <div class="daily">
+                <p>Daily <span>Flow</span></p>
+            </div>
+            <div class="menu">
+                <h4><a href="../index.html">Home</a></h4>
+                <h4 class="active">Kegiatan</h4>
+                <h4><a href="tentang.html">Tentang</a></h4>
+                <h4><a href="galeri.html">Galeri</a></h4>
+                <h4><a href="kontak.html">Kontak</a></h4>
+            </div>
+        </div>
+
+        <div id="header">
+            <h3>MY SCHEDULE</h3>
+        </div>
+
+        <div id="body">
+            <div class="morning">
+                <div class="keterangan display">
+                    <!-- <img src="Images/indexImages/belajar.jpg" alt=""> -->
+                    <div class="waktu">
+                        <h3>PAGI</h3>
+                        <p>06:00-11:30</p>
+                    </div>
+                    <img src="../Images/kegiatan/matahari-removebg-preview.png" alt="">
+                </div>
+                <div class="bag-atas display">
+                    <div class="atas">
+                        <img src="../Images/kegiatan/Sholat-removebg-preview.png" alt="">
+                        <h4>05:00 AM<br>Bangun Tidur Lalu Sholat</h4>
+                        <h3>Status</h3>
+                    </div>
+                    <div class="atas">
+                        <img src="../Images/kegiatan/jogging-removebg-preview.png" alt="">
+                        <h4>05:30 AM<br>Olahraga Jogging Pagi</h4>
+                        <h3>Status</h3>       
+                    </div>
+                    <div class="atas">
+                        <img src="../Images/kegiatan/MakanSiang.png" alt="">
+                        <h4>06:00 AM<br>Sarapan Ringan Di Pagi Hari</h4>
+                        <h3>Status</h3>
+                    </div>
+                </div>
+
+                <div class="bag-bawah display">
+                    <div class="atas">
+                        <img src="../Images/kegiatan/mandi-removebg-preview.png" alt="">
+                        <h4>06:30 AM<br>Lanjut Mandi Di Pagi Hari</h4>
+                        <h3>Status</h3>
+                    </div>
+                    <div class="atas">
+                        <img src="../Images/kegiatan/keluargaku-removebg-preview.png" alt="">
+                        <h4>07:00 AM<br>Membantu Kegiatan Orang Tua</h4>
+                        <h3>Status</h3>       
+                    </div>
+                    <div class="atas">
+                        <img src="../Images/kegiatan/belajarkan.png" alt="">
+                        <h4>09:00 AM<br>Melakukan Rutinitas Belajar</h4>
+                        <h3>Status</h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="afternoon">
+                <div class="keterangan display">
+                    <!-- <img src="Images/indexImages/belajar.jpg" alt=""> -->
+                    <div class="waktu">
+                        <h3>SIANG</h3>
+                        <p>12:00-18:00</p>
+                    </div>
+                    <img src="../Images/kegiatan/MakanSiang.png" alt="">
+                </div>
+                <div class="bag-atas display">
+                    <div class="atas">
+                        <img src="../Images/kegiatan/MakanSiang.png" alt="">
+                        <h4>12:00 PM<br>Kegiatan Makan Siang Dan Sholat</h4>
+                        <h3>Status</h3>
+                    </div>
+                    <div class="atas">
+                        <img src="../Images/kegiatan/belajarkan.png" alt="">
+                        <h4>13:00 AM<br>Lanjut Melakukan Kegiatan Belajar</h4>
+                        <h3>Status</h3>       
+                    </div>
+                    <div class="atas">
+                        <img src="../Images/kegiatan/Sholat-removebg-preview.png" alt="">
+                        <h4>15:00 PM<br>Istirahat Sejenak Dan Sholat</h4>
+                        <h3>Status</h3>
+                    </div>
+                </div>
+
+                <div class="bag-bawah display">
+                    <div class="atas">
+                        <img src="../Images/kegiatan/keluargaku-removebg-preview.png" alt="">
+                        <h4>15:30 PM<br>Berkegiatan Bersama Keluarga</h4>
+                        <h3>Status</h3>
+                    </div>
+                    <div class="atas">
+                        <img src="../Images/kegiatan/MakanSiang.png" alt="">
+                        <h4>17:00 PM<br>Lanjut Makan Di Sore Hari</h4>
+                        <h3>Status</h3>       
+                    </div>
+                    <div class="atas">
+                        <img src="../Images/kegiatan/Sholat-removebg-preview.png" alt="">
+                        <h4>17:30 PM<br>Istirahat Sejenak Atau Sholat</h4>
+                        <h3>Status</h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="evening">
+                <div class="keterangan display">
+                    <!-- <img src="Images/indexImages/belajar.jpg" alt=""> -->
+                    <div class="waktu">
+                        <h3>MALAM</h3>
+                        <p>18:00-21:30</p>
+                    </div>
+                    <img src="../Images/kegiatan/malam-removebg-preview.png" alt="">
+                </div>
+                <div class="bag-atas display">
+                    <div class="atas">
+                        <img src="../Images/kegiatan/belajarkan.png" alt="">
+                        <h4>18:00 PM<br>Melakukan Kegiatan Belajar Di Malam Hari</h4>
+                        <h3>Status</h3>
+                    </div>
+                    <div class="atas">
+                        <img src="../Images/kegiatan/Sholat-removebg-preview.png" alt="">
+                        <h4>19:00 PM<br>Melakukan Kegiatan <br> Sholat Isya</h4>
+                        <h3>Status</h3>       
+                    </div>
+                    <!-- <div class="atas">
+                        <img src="Images/indexImages/belajar.jpg" alt="">
+                        <h4>06:00 AM<br>Wake Up & Hydrate</h4>
+                        <h3>Status</h3>
+                    </div> -->
+                </div>
+
+                <div class="bag-bawah display">
+                    <div class="atas">
+                        <img src="../Images/kegiatan/keluargaku-removebg-preview.png" alt="">
+                        <h4>19:30 PM<br>Berkumpul Bersama <br> Keluarga</h4>
+                        <h3>Status</h3>
+                    </div>
+                    <div class="atas">
+                        <img src="../Images/kegiatan/malam-removebg-preview.png" alt="">
+                        <h4>21:30 PM<br>Setelah Itu <br> Saya Tidur</h4>
+                        <h3>Status</h3>       
+                    </div>
+                    <!-- <div class="atas">
+                        <img src="Images/indexImages/belajar.jpg" alt="">
+                        <h4>06:00 AM<br>Wake Up & Hydrate</h4>
+                        <h3>Status</h3>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
